@@ -195,7 +195,11 @@ nav a:focus {
    margin-bottom: .5em;
 }
 
-
+@media (max-width: 680px){
+   nav{
+      display: none;
+   }
+}
 @media (min-width: 675px) {
    .container-nav,
    .container-flex {
